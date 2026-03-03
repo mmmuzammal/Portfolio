@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aarav | Portfolio</title>
+  <meta name="description" content="A modern personal portfolio showcasing projects, skills, and contact details." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#home">A<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero container reveal">
+      <p class="kicker">Creative Developer • UI Enthusiast</p>
+      <h1>I build <span>attractive</span> and memorable digital experiences.</h1>
+      <p class="hero-copy">
+        I’m Aarav, a passionate web developer focused on creating beautiful portfolio websites and interactive products that feel fast, polished, and user-friendly.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn btn-ghost" href="#contact">Let's Connect</a>
+      </div>
+    </section>
+
+    <section id="about" class="section container reveal">
+      <h2>About Me</h2>
+      <p>
+        With a strong eye for design and a love for clean code, I blend aesthetics and performance to craft websites that stand out.
+        I enjoy transforming ideas into modern, responsive, and elegant web experiences.
+      </p>
+    </section>
+
+    <section id="skills" class="section container reveal">
+      <h2>Skills</h2>
+      <div class="chips">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>TypeScript</span>
+        <span>Node.js</span>
+        <span>Figma</span>
+        <span>Responsive Design</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section container reveal">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <article class="card">
+          <h3>Luxe Interiors</h3>
+          <p>A premium interior design showcase with smooth scroll storytelling and elegant visuals.</p>
+          <a href="#" aria-label="Open Luxe Interiors project">Case Study ↗</a>
+        </article>
+        <article class="card">
+          <h3>FitPulse Dashboard</h3>
+          <p>A fitness analytics dashboard with data visualizations and personalized progress insights.</p>
+          <a href="#" aria-label="Open FitPulse Dashboard project">Case Study ↗</a>
+        </article>
+        <article class="card">
+          <h3>Wanderly Travel</h3>
+          <p>A travel booking landing page designed for conversion with immersive destination sections.</p>
+          <a href="#" aria-label="Open Wanderly Travel project">Case Study ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container reveal">
+      <h2>Let’s Work Together</h2>
+      <p>If you’re looking for a developer to build your next beautiful web experience, I’d love to hear from you.</p>
+      <a class="btn btn-primary" href="mailto:hello@example.com">hello@example.com</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Aarav. Crafted with passion.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
